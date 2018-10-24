@@ -17,6 +17,6 @@ public class AboutServlet extends HttpServlet {
 
         PrintWriter out = httpServletResponse.getWriter();
 
-        out.println("Hi I'm Karol");
+        out.println("Hi I'm Karol. I'm 21 and I'm an IT student at the University of Gdansk.");
     }
 }
