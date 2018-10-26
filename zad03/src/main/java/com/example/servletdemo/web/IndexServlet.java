@@ -21,12 +21,12 @@ public class IndexServlet extends HttpServlet {
         response.setContentType("text/html");
 
         PrintWriter out = response.getWriter();
-        out.println("<html><body><h1>Witaj into my store!</h1> <br>" +
+        out.println("<html><body><h1>Welcome into my store!</h1> <br>" +
                 "Menu: <br>" +
                 "<ul>" +
-                "<li><a href='add-bicycle'>Add phone</a></li>" +
-                "<li><a href='all-bicycles'>Show all phones</a></li>" +
-                "<li><a href='cart'>Shopping cart</a></li>" +
+                "<li><a href='add-phone'>Add phone</a></li>" +
+                "<li><a href='all-phones'>Show phones</a></li>" +
+                "<li><a href='cart'>Shopping card</a></li>" +
                 "</ul>" +
                 "</body></html>");
         out.close();
