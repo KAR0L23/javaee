@@ -1,2 +1,1 @@
-# Aleksander Szewczak
-# javaee
+Zadanie 3
