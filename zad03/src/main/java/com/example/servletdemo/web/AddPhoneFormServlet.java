@@ -34,7 +34,7 @@ public class AddPhoneFormServlet extends HttpServlet {
 		
 		PrintWriter out = response.getWriter();
 		out.println("<html><body><h2>Add a phone</h2>" +
-				"<form action='data-phone'>" +
+				"<form action ='data-phone'>" +
 				"ID: <input type='text' name='id' value="+size+" /> <br />" +
 				"Producer: <input type='text' name='producer' /> <br />" +
 				"Production date: <input type='date' name='productionDate' /> <br />" +
