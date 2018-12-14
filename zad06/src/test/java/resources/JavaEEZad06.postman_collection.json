@@ -1,0 +1,184 @@
+{
+	"info": {
+		"_postman_id": "81563b04-c3c5-4bb3-bb56-dc7847844742",
+		"name": "JavaEEZad06",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "AddPhone",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/restwsejbdemo/api/phone?producer=KROSS&price=999.99",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restwsejbdemo",
+						"api",
+						"phone"
+					],
+					"query": [
+						{
+							"key": "producer",
+							"value": "KROSS"
+						},
+						{
+							"key": "price",
+							"value": "999.99"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPhone",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/restwsejbdemo/api/phone/0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restwsejbdemo",
+						"api",
+						"phone",
+						"0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllPhones",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/restwsejbdemo/api/phone/allPhones",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restwsejbdemo",
+						"api",
+						"phone",
+						"allPhones"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteAllPhones",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/restwsejbdemo/api/phone/deleteAll",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restwsejbdemo",
+						"api",
+						"phone",
+						"deleteAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deletePhone",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/restwsejbdemo/api/phone/0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restwsejbdemo",
+						"api",
+						"phone",
+						"0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updatePhone",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/restwsejbdemo/api/phone/0?producer=NowyKross&price=111.11",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restwsejbdemo",
+						"api",
+						"phone",
+						"0"
+					],
+					"query": [
+						{
+							"key": "producer",
+							"value": "NowyKross"
+						},
+						{
+							"key": "price",
+							"value": "111.11"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
